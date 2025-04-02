@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    border: 1px solid #000000;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 0.3em 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0.3em 1em;
+    background-color: #1f2937;
+    width: 100%;
+}
