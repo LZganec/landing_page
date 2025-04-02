@@ -27,11 +27,56 @@ header .header-links {
     align-items: center;
 }
 
+.blue-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10em 0;
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.sample-title-text {
+    font-size: 3em;
+}
+
+.sample-content-text {
+    font-size: 1.5em;
+    max-width: 70%;
+}
+
+.sign-up {
+    padding: 1em 1.25em;
+}
+
+.white-container {
+    padding: 7.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-information {
+    margin: 1em 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-container {
+    max-width: 10%;
+}
+
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     padding: 0.3em 1em;
     background-color: #1f2937;
+    color: #ffffff;
     width: 100%;
+    text-align: center;
 }
